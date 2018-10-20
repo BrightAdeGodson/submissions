@@ -23,7 +23,7 @@ public class PartTime extends Employee {
 	@Override
 	public double calculatePay() {
 		System.out.println("Part time employee.");
-		return (this.getHoursWorked() + this.getRate());
+		return (this.getHoursWorked() * this.getRate());
 	}
 
 	/**
